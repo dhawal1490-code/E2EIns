@@ -6,6 +6,7 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 import resources.ExtentReporterNG;
 
@@ -21,7 +22,8 @@ public class Listeners extends ExtentReporterNG implements ITestListener  {
 
 	public void onStart(ITestResult  result) {
 		// TODO Auto-generated method stub
-		test=  extent.createTest(result.getMethod().getMethodName());
+		System.out.print("Extent Test Started");
+		test =  extent.createTest(result.getMethod().getMethodName());
 //		extenttest.set(test);
 		
 	}
@@ -49,7 +51,8 @@ public class Listeners extends ExtentReporterNG implements ITestListener  {
 
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		//extenttest.get().log(Status.PASS,"Test Passed");
+		System.out.print("Extent Test Passed");
+		test.log(Status.PASS,"Test Passed");
 	}
 
 	public void onFinish(ITestContext arg0) {

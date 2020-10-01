@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="221915" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:08:51Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="220306" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:08:49Z">
+      <class name="Instagram.E2EIns.InstaTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Instagram.E2EIns.InstaTest2@215be6bb]" name="initialize" is-config="true" duration-ms="66205" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getwordprom()[pri:2, instance:Instagram.E2EIns.InstaTest2@215be6bb]" name="getwordprom" duration-ms="102000" started-at="2020-10-01T09:06:15Z" finished-at="2020-10-01T09:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getwordprom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest2@215be6bb]" name="tearDown" is-config="true" duration-ms="51809" started-at="2020-10-01T09:07:57Z" finished-at="2020-10-01T09:08:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Instagram.E2EIns.InstaTest2 -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="221915" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:08:51Z">
+      <class name="Instagram.E2EIns.InstaTest1">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Instagram.E2EIns.InstaTest1@59e84876]" name="initialize" is-config="true" duration-ms="66210" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getscribblestoriesdata()[pri:0, instance:Instagram.E2EIns.InstaTest1@59e84876]" name="getscribblestoriesdata" duration-ms="115678" started-at="2020-10-01T09:06:15Z" finished-at="2020-10-01T09:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getscribblestoriesdata -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest1@59e84876]" name="tearDown" is-config="true" duration-ms="39742" started-at="2020-10-01T09:08:11Z" finished-at="2020-10-01T09:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Instagram.E2EIns.InstaTest1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
