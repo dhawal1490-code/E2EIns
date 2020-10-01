@@ -1,41 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="221915" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:08:51Z">
+  <suite name="Suite" duration-ms="190479" started-at="2020-10-01T18:42:04Z" finished-at="2020-10-01T18:45:14Z">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="220306" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:08:49Z">
-      <class name="Instagram.E2EIns.InstaTest2">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Instagram.E2EIns.InstaTest2@215be6bb]" name="initialize" is-config="true" duration-ms="66205" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:06:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="getwordprom()[pri:2, instance:Instagram.E2EIns.InstaTest2@215be6bb]" name="getwordprom" duration-ms="102000" started-at="2020-10-01T09:06:15Z" finished-at="2020-10-01T09:07:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getwordprom -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest2@215be6bb]" name="tearDown" is-config="true" duration-ms="51809" started-at="2020-10-01T09:07:57Z" finished-at="2020-10-01T09:08:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Instagram.E2EIns.InstaTest2 -->
-    </test> <!-- Test2 -->
-    <test name="Test1" duration-ms="221915" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:08:51Z">
+    <test name="Test1" duration-ms="189738" started-at="2020-10-01T18:42:04Z" finished-at="2020-10-01T18:45:13Z">
       <class name="Instagram.E2EIns.InstaTest1">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Instagram.E2EIns.InstaTest1@59e84876]" name="initialize" is-config="true" duration-ms="66210" started-at="2020-10-01T09:05:09Z" finished-at="2020-10-01T09:06:15Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Instagram.E2EIns.InstaTest1@34c4973]" name="initialize" is-config="true" duration-ms="73785" started-at="2020-10-01T18:42:04Z" finished-at="2020-10-01T18:43:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="getscribblestoriesdata()[pri:0, instance:Instagram.E2EIns.InstaTest1@59e84876]" name="getscribblestoriesdata" duration-ms="115678" started-at="2020-10-01T09:06:15Z" finished-at="2020-10-01T09:08:11Z">
+        <test-method status="FAIL" signature="getscribblestoriesdata()[pri:0, instance:Instagram.E2EIns.InstaTest1@34c4973]" name="getscribblestoriesdata" duration-ms="77554" started-at="2020-10-01T18:43:17Z" finished-at="2020-10-01T18:44:35Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Instagram.E2EIns.Listeners.onTestSuccess(Listeners.java:55)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
+at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getscribblestoriesdata -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest1@59e84876]" name="tearDown" is-config="true" duration-ms="39742" started-at="2020-10-01T09:08:11Z" finished-at="2020-10-01T09:08:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest1@34c4973]" name="tearDown" is-config="true" duration-ms="38371" started-at="2020-10-01T18:44:35Z" finished-at="2020-10-01T18:45:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Instagram.E2EIns.InstaTest1 -->
     </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="190479" started-at="2020-10-01T18:42:04Z" finished-at="2020-10-01T18:45:14Z">
+      <class name="Instagram.E2EIns.InstaTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Instagram.E2EIns.InstaTest2@27808f31]" name="initialize" is-config="true" duration-ms="71974" started-at="2020-10-01T18:42:04Z" finished-at="2020-10-01T18:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="getwordprom()[pri:2, instance:Instagram.E2EIns.InstaTest2@27808f31]" name="getwordprom" duration-ms="68692" started-at="2020-10-01T18:43:16Z" finished-at="2020-10-01T18:44:25Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Instagram.E2EIns.Listeners.onTestSuccess(Listeners.java:55)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:70)
+at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getwordprom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest2@27808f31]" name="tearDown" is-config="true" duration-ms="49539" started-at="2020-10-01T18:44:25Z" finished-at="2020-10-01T18:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Instagram.E2EIns.InstaTest2 -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>

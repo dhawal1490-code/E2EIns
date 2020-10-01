@@ -33,7 +33,7 @@ public class InstaTest2 extends base{
 	}
 	
 	//@Test(dataProvider = "getData")
-	@Test(priority = 2)
+	@Test
 	public void getwordprom() throws IOException, InterruptedException{
 		System.out.println("Insta2 getwordporm");
 		System.out.println(driver);

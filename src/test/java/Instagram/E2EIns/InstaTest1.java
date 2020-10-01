@@ -10,8 +10,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.configuration.Theme;
+
 import pageobjects.LandingPage;
 import pageobjects.LoginPage;
+import resources.ExtentReporterNG;
 
 
 public class InstaTest1 extends base{
@@ -36,6 +44,7 @@ public class InstaTest1 extends base{
 	//@Test(dataProvider = "getData")
 	@Test()
 	public void getscribblestoriesdata() throws IOException, InterruptedException{
+		
 		System.out.println("Insta1 getscribblestores");
 		System.out.println(driver);
 		LandingPage lp= new LandingPage(driver,wait);
@@ -58,6 +67,7 @@ public class InstaTest1 extends base{
 		lp.closeDialog().click();
 		lp.menuicon().click();
 		lp.logout().click();
+		
 	}	
 	
 	@AfterClass()
