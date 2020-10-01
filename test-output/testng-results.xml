@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161787" started-at="2020-10-01T08:46:49Z" finished-at="2020-10-01T08:49:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161787" started-at="2020-10-01T08:46:49Z" finished-at="2020-10-01T08:49:31Z">
+      <class name="Instagram.E2EIns.InstaTest1">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Instagram.E2EIns.InstaTest1@5622fdf]" name="initialize" is-config="true" duration-ms="18101" started-at="2020-10-01T14:16:49Z" finished-at="2020-10-01T14:17:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getscribblestoriesdata()[pri:0, instance:Instagram.E2EIns.InstaTest1@5622fdf]" name="getscribblestoriesdata" duration-ms="38949" started-at="2020-10-01T14:17:07Z" finished-at="2020-10-01T14:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getscribblestoriesdata -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest1@5622fdf]" name="tearDown" is-config="true" duration-ms="13227" started-at="2020-10-01T14:17:46Z" finished-at="2020-10-01T14:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Instagram.E2EIns.InstaTest1 -->
+      <class name="Instagram.E2EIns.InstaTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Instagram.E2EIns.InstaTest2@4883b407]" name="initialize" is-config="true" duration-ms="17893" started-at="2020-10-01T14:17:59Z" finished-at="2020-10-01T14:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getwordprom()[pri:2, instance:Instagram.E2EIns.InstaTest2@4883b407]" name="getwordprom" duration-ms="66553" started-at="2020-10-01T14:18:17Z" finished-at="2020-10-01T14:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getwordprom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest2@4883b407]" name="tearDown" is-config="true" duration-ms="6988" started-at="2020-10-01T14:19:24Z" finished-at="2020-10-01T14:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Instagram.E2EIns.InstaTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
