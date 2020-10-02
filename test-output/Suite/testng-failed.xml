@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
   <listeners>
     <listener class-name="Instagram.E2EIns.Listeners"/>
   </listeners>
+  <test name="Test4(failed)" parallel="tests">
+    <classes>
+      <class name="Instagram.E2EIns.InstaTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Instagram.E2EIns.InstaTest2 -->
+      <class name="Instagram.E2EIns.InstaTest4">
+        <methods>
+          <include name="InstaGoogleTest"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Instagram.E2EIns.InstaTest4 -->
+      <class name="Instagram.E2EIns.InstaTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Instagram.E2EIns.InstaTest1 -->
+      <class name="Instagram.E2EIns.InstaTest3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Instagram.E2EIns.InstaTest3 -->
+    </classes>
+  </test> <!-- Test4(failed) -->
   <test name="Test3(failed)" parallel="tests">
     <classes>
       <class name="Instagram.E2EIns.InstaTest2">
@@ -12,6 +41,12 @@
           <include name="initialize"/>
         </methods>
       </class> <!-- Instagram.E2EIns.InstaTest2 -->
+      <class name="Instagram.E2EIns.InstaTest4">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Instagram.E2EIns.InstaTest4 -->
       <class name="Instagram.E2EIns.InstaTest1">
         <methods>
           <include name="tearDown"/>

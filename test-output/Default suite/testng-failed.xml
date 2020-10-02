@@ -3,16 +3,25 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Instagram.E2EIns.InstaTest2">
-        <methods>
-          <include name="getscribblestoriesdata"/>
-        </methods>
-      </class> <!-- Instagram.E2EIns.InstaTest2 -->
       <class name="Instagram.E2EIns.InstaTest1">
         <methods>
-          <include name="getscribblestoriesdata"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
         </methods>
       </class> <!-- Instagram.E2EIns.InstaTest1 -->
+      <class name="Instagram.E2EIns.InstaTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Instagram.E2EIns.InstaTest2 -->
+      <class name="Instagram.E2EIns.InstaTest3">
+        <methods>
+          <include name="instaFailTest"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Instagram.E2EIns.InstaTest3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

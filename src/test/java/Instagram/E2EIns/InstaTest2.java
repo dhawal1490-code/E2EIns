@@ -6,6 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -15,9 +16,11 @@ import pageobjects.LoginPage;
 
 public class InstaTest2 extends base{
 	@BeforeClass()
-	public void initialize() throws IOException{
+	public void initialize(ITestContext context) throws IOException{
 		System.out.println("Insta2 Initialize");
 		driver= initializeDriver();
+		System.out.println(driver);
+		context.setAttribute("driver", driver);
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
 		wait = new WebDriverWait(driver, 15);

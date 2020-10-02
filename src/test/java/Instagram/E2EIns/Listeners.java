@@ -26,6 +26,16 @@ public class Listeners extends base implements ITestListener  {
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
 		try {
+			System.out.println("***** Error "+result.getName()+" test has failed *****");
+	    	String methodName=result.getName().toString().trim();
+	        ITestContext context = result.getTestContext();
+	        WebDriver driver = (WebDriver)context.getAttribute("driver");
+	        
+	        String screenShotPath = getScreenshot(methodName, driver);
+	        extenttest.get().log(Status.FAIL, result.getThrowable());
+	        extenttest.get().log(Status.FAIL, "Snapshot below: " +  extenttest.get().addScreenCaptureFromPath(screenShotPath));
+	        extenttest.get().log(Status.FAIL, "Test Failed");
+	        
 			 //Object testClass = result.getInstance();
 			 //WebDriver webDriver = ((BaseTest) testClass).getDriver();
 			//System.out.println(result.getTestClass().getRealClass().getDeclaredField("driver"));
@@ -37,8 +47,7 @@ public class Listeners extends base implements ITestListener  {
 	
 			//extenttest.get().fail(result.getThrowable());
 			//extenttest.get().addScreenCaptureFromPath(getScreenshot(result.getMethod().getMethodName(),driver));
-			extenttest.get().log(Status.FAIL, "Test Failed");
-		
+			
 	}
 
 	public void onTestSkipped(ITestResult result) {
@@ -51,7 +60,6 @@ public class Listeners extends base implements ITestListener  {
 		System.out.print("Extent Test Started");
 		test =  extent.createTest(result.getMethod().getMethodName());
 		extenttest.set(test);
-		
 	}
 
 	public void onTestSuccess(ITestResult result) {
@@ -66,7 +74,7 @@ public class Listeners extends base implements ITestListener  {
 		
 	}
 
-	public void onStart(ITestContext arg0) {
+	public void onStart(ITestContext iTestContext) {
 		// TODO Auto-generated method stub
 		
 	}	
