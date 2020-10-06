@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="85418" started-at="2020-10-02T19:47:21Z" finished-at="2020-10-02T19:48:46Z">
+  <suite name="Suite" duration-ms="148665" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:51:06Z">
     <groups>
     </groups>
-    <test name="Test4" duration-ms="44870" started-at="2020-10-02T19:47:21Z" finished-at="2020-10-02T19:48:05Z">
+    <test name="Test4" duration-ms="138620" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:50:56Z">
       <class name="Instagram.E2EIns.InstaTest4">
-        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest4@42607a4f]" name="initialize" is-config="true" duration-ms="24376" started-at="2020-10-03T01:17:21Z" finished-at="2020-10-03T01:17:45Z">
+        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest4@3578436e]" name="initialize" is-config="true" duration-ms="66825" started-at="2020-10-06T18:18:37Z" finished-at="2020-10-06T18:19:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6483f5ae]]>
+                <![CDATA[org.testng.TestRunner@71623278]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="InstaGoogleTest()[pri:0, instance:Instagram.E2EIns.InstaTest4@42607a4f]" name="InstaGoogleTest" duration-ms="52" started-at="2020-10-03T01:17:45Z" finished-at="2020-10-03T01:17:45Z">
+        <test-method status="FAIL" signature="InstaGoogleTest()[pri:0, instance:Instagram.E2EIns.InstaTest4@3578436e]" name="InstaGoogleTest" duration-ms="1546" started-at="2020-10-06T18:19:45Z" finished-at="2020-10-06T18:19:46Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test Failed]]>
@@ -53,26 +53,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InstaGoogleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest4@42607a4f]" name="tearDown" is-config="true" duration-ms="16764" started-at="2020-10-03T01:17:49Z" finished-at="2020-10-03T01:18:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest4@3578436e]" name="tearDown" is-config="true" duration-ms="56832" started-at="2020-10-06T18:19:59Z" finished-at="2020-10-06T18:20:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Instagram.E2EIns.InstaTest4 -->
     </test> <!-- Test4 -->
-    <test name="Test3" duration-ms="50292" started-at="2020-10-02T19:47:21Z" finished-at="2020-10-02T19:48:11Z">
+    <test name="Test3" duration-ms="138577" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:50:56Z">
       <class name="Instagram.E2EIns.InstaTest3">
-        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest3@2de8284b]" name="initialize" is-config="true" duration-ms="28874" started-at="2020-10-03T01:17:21Z" finished-at="2020-10-03T01:17:50Z">
+        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest3@4524411f]" name="initialize" is-config="true" duration-ms="76594" started-at="2020-10-06T18:18:37Z" finished-at="2020-10-06T18:19:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@b9afc07]]>
+                <![CDATA[org.testng.TestRunner@15b3e5b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="instaFailTest()[pri:0, instance:Instagram.E2EIns.InstaTest3@2de8284b]" name="instaFailTest" duration-ms="10" started-at="2020-10-03T01:17:50Z" finished-at="2020-10-03T01:17:50Z">
+        <test-method status="FAIL" signature="instaFailTest()[pri:0, instance:Instagram.E2EIns.InstaTest3@4524411f]" name="instaFailTest" duration-ms="12" started-at="2020-10-06T18:19:54Z" finished-at="2020-10-06T18:19:54Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Test Failed]]>
@@ -107,57 +107,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instaFailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest3@2de8284b]" name="tearDown" is-config="true" duration-ms="19353" started-at="2020-10-03T01:17:52Z" finished-at="2020-10-03T01:18:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest3@4524411f]" name="tearDown" is-config="true" duration-ms="56773" started-at="2020-10-06T18:19:59Z" finished-at="2020-10-06T18:20:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Instagram.E2EIns.InstaTest3 -->
     </test> <!-- Test3 -->
-    <test name="Test2" duration-ms="85354" started-at="2020-10-02T19:47:21Z" finished-at="2020-10-02T19:48:46Z">
-      <class name="Instagram.E2EIns.InstaTest2">
-        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest2@1fc2b765]" name="initialize" is-config="true" duration-ms="35513" started-at="2020-10-03T01:17:21Z" finished-at="2020-10-03T01:17:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@8b87145]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="getwordprom()[pri:0, instance:Instagram.E2EIns.InstaTest2@1fc2b765]" name="getwordprom" duration-ms="48698" started-at="2020-10-03T01:17:56Z" finished-at="2020-10-03T01:18:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getwordprom -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest2@1fc2b765]" name="tearDown" is-config="true" duration-ms="1104" started-at="2020-10-03T01:18:45Z" finished-at="2020-10-03T01:18:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Instagram.E2EIns.InstaTest2 -->
-    </test> <!-- Test2 -->
-    <test name="Test1" duration-ms="85417" started-at="2020-10-02T19:47:21Z" finished-at="2020-10-02T19:48:46Z">
+    <test name="Test1" duration-ms="147240" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:51:05Z">
       <class name="Instagram.E2EIns.InstaTest1">
-        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest1@4671e53b]" name="initialize" is-config="true" duration-ms="35493" started-at="2020-10-03T01:17:21Z" finished-at="2020-10-03T01:17:56Z">
+        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest1@74a10858]" name="initialize" is-config="true" duration-ms="84208" started-at="2020-10-06T18:18:38Z" finished-at="2020-10-06T18:20:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5fcd892a]]>
+                <![CDATA[org.testng.TestRunner@61ca2dfa]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="getscribblestoriesdata()[pri:0, instance:Instagram.E2EIns.InstaTest1@4671e53b]" name="getscribblestoriesdata" duration-ms="48961" started-at="2020-10-03T01:17:56Z" finished-at="2020-10-03T01:18:45Z">
+        <test-method status="PASS" signature="getscribblestoriesdata()[pri:0, instance:Instagram.E2EIns.InstaTest1@74a10858]" name="getscribblestoriesdata" duration-ms="59092" started-at="2020-10-06T18:20:02Z" finished-at="2020-10-06T18:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getscribblestoriesdata -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest1@4671e53b]" name="tearDown" is-config="true" duration-ms="931" started-at="2020-10-03T01:18:45Z" finished-at="2020-10-03T01:18:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest1@74a10858]" name="tearDown" is-config="true" duration-ms="3856" started-at="2020-10-06T18:21:01Z" finished-at="2020-10-06T18:21:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Instagram.E2EIns.InstaTest1 -->
     </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="148664" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:51:06Z">
+      <class name="Instagram.E2EIns.InstaTest2">
+        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest2@1990a65e]" name="initialize" is-config="true" duration-ms="84237" started-at="2020-10-06T18:18:37Z" finished-at="2020-10-06T18:20:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b53f538]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getwordprom()[pri:0, instance:Instagram.E2EIns.InstaTest2@1990a65e]" name="getwordprom" duration-ms="61626" started-at="2020-10-06T18:20:02Z" finished-at="2020-10-06T18:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getwordprom -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest2@1990a65e]" name="tearDown" is-config="true" duration-ms="2753" started-at="2020-10-06T18:21:03Z" finished-at="2020-10-06T18:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Instagram.E2EIns.InstaTest2 -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
