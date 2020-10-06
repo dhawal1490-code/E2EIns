@@ -24,7 +24,7 @@
 			<class name="Instagram.E2EIns.InstaTest4" />
 		</classes>
 	</test> <!-- Test -->
-	<test name="Test1">
+	<test name="Test5">
 		<classes>
 			<class name="Instagram.E2EIns.InstaTest5Excel" />
 		</classes>
