@@ -19,9 +19,15 @@
 			<class name="Instagram.E2EIns.InstaTest3" />
 		</classes>
 	</test> <!-- Test -->
-		<test name="Test4">
+	<test name="Test4">
 		<classes>
 			<class name="Instagram.E2EIns.InstaTest4" />
 		</classes>
 	</test> <!-- Test -->
+	<test name="Test1">
+		<classes>
+			<class name="Instagram.E2EIns.InstaTest5Excel" />
+		</classes>
+	</test> <!-- Test -->
+	
 </suite><!-- Suite -->
