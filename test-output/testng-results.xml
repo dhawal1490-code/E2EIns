@@ -1,163 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="148665" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:51:06Z">
+  <suite name="Default suite" duration-ms="58059" started-at="2020-10-09T20:15:00Z" finished-at="2020-10-09T20:15:58Z">
     <groups>
     </groups>
-    <test name="Test4" duration-ms="138620" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:50:56Z">
-      <class name="Instagram.E2EIns.InstaTest4">
-        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest4@3578436e]" name="initialize" is-config="true" duration-ms="66825" started-at="2020-10-06T18:18:37Z" finished-at="2020-10-06T18:19:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@71623278]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="58059" started-at="2020-10-09T20:15:00Z" finished-at="2020-10-09T20:15:58Z">
+      <class name="Instagram.E2EIns.InstaTest5">
+        <test-method status="PASS" signature="getcount()[pri:0, instance:Instagram.E2EIns.InstaTest5@59f99ea]" name="getcount" duration-ms="57991" started-at="2020-10-10T01:45:00Z" finished-at="2020-10-10T01:45:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="InstaGoogleTest()[pri:0, instance:Instagram.E2EIns.InstaTest4@3578436e]" name="InstaGoogleTest" duration-ms="1546" started-at="2020-10-06T18:19:45Z" finished-at="2020-10-06T18:19:46Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Test Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at Instagram.E2EIns.InstaTest4.InstaGoogleTest(InstaTest4.java:36)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:402)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InstaGoogleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest4@3578436e]" name="tearDown" is-config="true" duration-ms="56832" started-at="2020-10-06T18:19:59Z" finished-at="2020-10-06T18:20:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Instagram.E2EIns.InstaTest4 -->
-    </test> <!-- Test4 -->
-    <test name="Test3" duration-ms="138577" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:50:56Z">
-      <class name="Instagram.E2EIns.InstaTest3">
-        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest3@4524411f]" name="initialize" is-config="true" duration-ms="76594" started-at="2020-10-06T18:18:37Z" finished-at="2020-10-06T18:19:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@15b3e5b]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="instaFailTest()[pri:0, instance:Instagram.E2EIns.InstaTest3@4524411f]" name="instaFailTest" duration-ms="12" started-at="2020-10-06T18:19:54Z" finished-at="2020-10-06T18:19:54Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Test Failed]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test Failed
-	at org.testng.Assert.fail(Assert.java:94)
-	at Instagram.E2EIns.InstaTest3.instaFailTest(InstaTest3.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:753)
-	at org.testng.TestRunner.run(TestRunner.java:607)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:402)
-	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- instaFailTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest3@4524411f]" name="tearDown" is-config="true" duration-ms="56773" started-at="2020-10-06T18:19:59Z" finished-at="2020-10-06T18:20:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Instagram.E2EIns.InstaTest3 -->
-    </test> <!-- Test3 -->
-    <test name="Test1" duration-ms="147240" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:51:05Z">
-      <class name="Instagram.E2EIns.InstaTest1">
-        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest1@74a10858]" name="initialize" is-config="true" duration-ms="84208" started-at="2020-10-06T18:18:38Z" finished-at="2020-10-06T18:20:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@61ca2dfa]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="getscribblestoriesdata()[pri:0, instance:Instagram.E2EIns.InstaTest1@74a10858]" name="getscribblestoriesdata" duration-ms="59092" started-at="2020-10-06T18:20:02Z" finished-at="2020-10-06T18:21:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getscribblestoriesdata -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest1@74a10858]" name="tearDown" is-config="true" duration-ms="3856" started-at="2020-10-06T18:21:01Z" finished-at="2020-10-06T18:21:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Instagram.E2EIns.InstaTest1 -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="148664" started-at="2020-10-06T12:48:37Z" finished-at="2020-10-06T12:51:06Z">
-      <class name="Instagram.E2EIns.InstaTest2">
-        <test-method status="PASS" signature="initialize(org.testng.ITestContext)[pri:0, instance:Instagram.E2EIns.InstaTest2@1990a65e]" name="initialize" is-config="true" duration-ms="84237" started-at="2020-10-06T18:18:37Z" finished-at="2020-10-06T18:20:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@4b53f538]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="getwordprom()[pri:0, instance:Instagram.E2EIns.InstaTest2@1990a65e]" name="getwordprom" duration-ms="61626" started-at="2020-10-06T18:20:02Z" finished-at="2020-10-06T18:21:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getwordprom -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Instagram.E2EIns.InstaTest2@1990a65e]" name="tearDown" is-config="true" duration-ms="2753" started-at="2020-10-06T18:21:03Z" finished-at="2020-10-06T18:21:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Instagram.E2EIns.InstaTest2 -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- getcount -->
+      </class> <!-- Instagram.E2EIns.InstaTest5 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
