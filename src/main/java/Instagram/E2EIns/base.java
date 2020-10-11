@@ -45,7 +45,7 @@ public class base {
 		TakesScreenshot ts = (TakesScreenshot) driver;
         File source = ts.getScreenshotAs(OutputType.FILE);
         System.out.println(System.getProperty("user.dir"));
-        String dest = System.getProperty("user.dir") + "/ws/screenshots./"+filename+".png";
+        String dest = System.getProperty("user.dir") + "\\ws\\screenshots\\"+filename+".png";
         System.out.println(dest);
         File destination = new File(dest);
         FileUtils.copyFile(source, destination);        
