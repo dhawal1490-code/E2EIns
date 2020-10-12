@@ -15,7 +15,7 @@ public class ExtentReporterNG {
 	  
 	    //builds a new report using the html template 
 	    // initialize the HtmlReporter
-	    ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("./reports/htmlreport/testReport.html");
+	    ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("./report/htmlreport/testReport.html");
         
         //initialize ExtentReports and attach the HtmlReporter
 	    ExtentReports extent = new ExtentReports();

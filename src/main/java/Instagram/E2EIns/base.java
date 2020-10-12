@@ -46,7 +46,7 @@ public class base {
         File source = ts.getScreenshotAs(OutputType.FILE);
         System.out.println(System.getProperty("user.dir"));
         // System.getProperty("user.dir") + 
-        String dest = "./reports/screenshots/"+filename+".png";
+        String dest = "./report/screenshots/"+filename+".png";
         String extentdest = "../screenshots/"+filename+".png";
         System.out.println(dest);
         File destination = new File(dest);
